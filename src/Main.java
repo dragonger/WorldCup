@@ -5,11 +5,14 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("back to program");
         System.out.println("escolha o pais e te diremos em quais anos seu pais ganhou a copa do mundo");
+
         Scanner CBF = new Scanner(System.in);
         Scanner Ano = new Scanner(System.in);
+
         String Selecao = CBF.nextLine();
         if (Selecao.contains("Alemanha")) {
             System.out.println("1954, 1974, 1990 e 2014");
+
         } else if (Selecao.contains(("Brasil"))) {
             System.out.println("1958, 1962, 1970, 1994 e 2002");
 
@@ -33,8 +36,7 @@ public class Main {
 
         } else {
             System.out.println("\nnunca ganhou copa");
-
-
+            
         }
     }
 }
